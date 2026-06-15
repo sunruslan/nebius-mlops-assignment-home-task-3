@@ -43,8 +43,17 @@ class AnswerResponse(BaseModel):
     rows: list[list[Any]] | None
     iterations: int
     ok: bool
+    verified: bool = False
+    verify_issue: str | None = None
     error: str | None = None
     history: list[dict[str, Any]] = []
+
+
+def _state_get(final: Any, key: str, default: Any = None) -> Any:
+    """Read a field from graph output (dict or AgentState)."""
+    if isinstance(final, dict):
+        return final.get(key, default)
+    return getattr(final, key, default)
 
 
 @app.get("/health")
@@ -64,10 +73,12 @@ def answer(req: AnswerRequest) -> AnswerResponse:
     except Exception as e:  # noqa: BLE001
         raise HTTPException(status_code=500, detail=f"{type(e).__name__}: {e}")
 
-    sql = final.get("sql", "")
-    iteration = final.get("iteration", 0)
-    history = final.get("history", [])
-    execution = final.get("execution")
+    sql = _state_get(final, "sql", "")
+    iteration = _state_get(final, "iteration", 0)
+    history = _state_get(final, "history", [])
+    execution = _state_get(final, "execution")
+    verify_ok = bool(_state_get(final, "verify_ok", False))
+    verify_issue = _state_get(final, "verify_issue") or None
 
     if execution is None:
         return AnswerResponse(
@@ -75,6 +86,8 @@ def answer(req: AnswerRequest) -> AnswerResponse:
             rows=None,
             iterations=iteration,
             ok=False,
+            verified=verify_ok,
+            verify_issue=verify_issue,
             error="agent produced no execution result",
             history=history,
         )
@@ -84,6 +97,8 @@ def answer(req: AnswerRequest) -> AnswerResponse:
             rows=None,
             iterations=iteration,
             ok=False,
+            verified=verify_ok,
+            verify_issue=verify_issue,
             error=execution.error,
             history=history,
         )
@@ -93,5 +108,7 @@ def answer(req: AnswerRequest) -> AnswerResponse:
         rows=[list(r) for r in (execution.rows or [])],
         iterations=iteration,
         ok=True,
+        verified=verify_ok,
+        verify_issue=verify_issue,
         history=history,
     )

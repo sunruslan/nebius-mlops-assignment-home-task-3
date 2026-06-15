@@ -19,9 +19,12 @@ def db_path(db_id: str) -> Path:
     return DB_DIR / f"{db_id}.sqlite"
 
 
-def _q(ident: str) -> str:
+def quote_ident(ident: str) -> str:
     """Double-quote a SQL identifier, escaping any embedded quotes."""
     return '"' + ident.replace('"', '""') + '"'
+
+
+_q = quote_ident  # internal alias
 
 
 @lru_cache(maxsize=32)

@@ -56,9 +56,130 @@ def matches(gold_rows: list[tuple] | None, pred_rows: list[tuple] | None) -> boo
 
 # ---------- Implement these (Phase 5) ----------------------------------
 
+AGENT_TIMEOUT_SECONDS = 300.0
+
+
+def _extract_sql_snapshots(history: list[dict], fallback_sql: str = "") -> dict[int, str]:
+    """Map revision index -> SQL from agent history.
+
+    Revision 0 is the first generate_sql; revision k>0 comes from the k-th revise.
+    """
+    snapshots: dict[int, str] = {}
+    for entry in history:
+        node = entry.get("node")
+        sql = entry.get("sql")
+        if not sql:
+            continue
+        if node == "generate_sql":
+            snapshots[0] = sql
+        elif node == "revise":
+            rev = int(entry.get("iteration", len(snapshots) + 1)) - 1
+            snapshots[rev] = sql
+
+    if not snapshots and fallback_sql:
+        snapshots[0] = fallback_sql
+    return snapshots
+
+
+def _compare_to_gold(
+    db_id: str,
+    sql: str,
+    gold_rows: list[tuple] | None,
+    gold_ok: bool,
+) -> dict:
+    """Run pred SQL and compare canonicalized rows to gold."""
+    if not gold_ok:
+        return {
+            "correct": False,
+            "pred_ok": False,
+            "pred_row_count": 0,
+            "error": "gold SQL failed to execute",
+        }
+    if not sql.strip():
+        return {
+            "correct": False,
+            "pred_ok": False,
+            "pred_row_count": 0,
+            "error": "empty SQL",
+        }
+
+    pred_ok, pred_rows, pred_err = run_sql(db_id, sql)
+    if not pred_ok:
+        return {
+            "correct": False,
+            "pred_ok": False,
+            "pred_row_count": 0,
+            "error": pred_err,
+        }
+
+    return {
+        "correct": matches(gold_rows, pred_rows),
+        "pred_ok": True,
+        "pred_row_count": len(pred_rows or []),
+        "error": None,
+    }
+
+
+def _correct_at_revision(result: dict, revision: int) -> bool:
+    """Return correctness at revision, carrying forward past terminal_revision."""
+    terminal = int(result.get("terminal_revision", 0))
+    effective = min(revision, terminal)
+    by_rev = {
+        int(item["iteration"]): bool(item["correct"])
+        for item in result.get("per_iteration", [])
+    }
+    return by_rev.get(effective, False)
+
+
 def eval_one(question: dict, agent_url: str) -> dict:
     """Score one question. Return a dict capturing per-iteration correctness."""
-    raise NotImplementedError("Phase 5")
+    db_id = question["db_id"]
+    qtext = question["question"]
+    gold_sql = question["gold_sql"]
+
+    gold_ok, gold_rows, gold_err = run_sql(db_id, gold_sql)
+
+    agent: dict = {}
+    agent_error: str | None = None
+    try:
+        with httpx.Client(timeout=AGENT_TIMEOUT_SECONDS) as client:
+            response = client.post(
+                agent_url,
+                json={"question": qtext, "db": db_id},
+            )
+            response.raise_for_status()
+            agent = response.json()
+    except httpx.HTTPError as e:
+        agent_error = f"{type(e).__name__}: {e}"
+
+    history = agent.get("history", []) if agent else []
+    snapshots = _extract_sql_snapshots(history, fallback_sql=agent.get("sql", ""))
+    terminal_revision = max(snapshots) if snapshots else 0
+
+    per_iteration: list[dict] = []
+    for rev in sorted(snapshots):
+        score = _compare_to_gold(db_id, snapshots[rev], gold_rows, gold_ok)
+        per_iteration.append({"iteration": rev, "sql": snapshots[rev], **score})
+
+    final_sql = snapshots.get(terminal_revision, agent.get("sql", ""))
+    final_score = _compare_to_gold(db_id, final_sql, gold_rows, gold_ok)
+
+    return {
+        "question": qtext,
+        "db_id": db_id,
+        "gold_sql": gold_sql,
+        "gold_ok": gold_ok,
+        "gold_error": gold_err,
+        "agent_sql": agent.get("sql"),
+        "agent_iterations": int(agent.get("iterations", 0)),
+        "agent_ok": bool(agent.get("ok", False)),
+        "agent_verified": bool(agent.get("verified", False)),
+        "agent_error": agent_error or agent.get("error"),
+        "terminal_revision": terminal_revision,
+        "final_correct": bool(final_score["correct"]) if gold_ok and not agent_error else False,
+        "per_iteration": per_iteration,
+        "history_nodes": [entry.get("node") for entry in history],
+    }
 
 
 def summarize(results: list[dict]) -> dict:
@@ -70,7 +191,46 @@ def summarize(results: list[dict]) -> dict:
     The agent stopped emitting; whatever it had at termination is what
     would have been served had we polled at iteration k.
     """
-    raise NotImplementedError("Phase 5")
+    count = len(results)
+    if count == 0:
+        return {
+            "count": 0,
+            "overall_pass_rate": 0.0,
+            "overall_correct": 0,
+            "per_iteration_pass_rate": {},
+            "per_iteration_correct": {},
+            "avg_agent_iterations": 0.0,
+            "gold_failures": 0,
+            "agent_request_failures": 0,
+        }
+
+    overall_correct = sum(1 for r in results if r.get("final_correct"))
+    gold_failures = sum(1 for r in results if not r.get("gold_ok"))
+    agent_request_failures = sum(1 for r in results if r.get("agent_error") and not r.get("agent_sql"))
+
+    max_revision = 0
+    for result in results:
+        max_revision = max(max_revision, int(result.get("terminal_revision", 0)))
+        for item in result.get("per_iteration", []):
+            max_revision = max(max_revision, int(item["iteration"]))
+
+    per_iteration_pass_rate: dict[str, float] = {}
+    per_iteration_correct: dict[str, int] = {}
+    for revision in range(max_revision + 1):
+        correct = sum(1 for r in results if _correct_at_revision(r, revision))
+        per_iteration_pass_rate[str(revision)] = correct / count
+        per_iteration_correct[str(revision)] = correct
+
+    return {
+        "count": count,
+        "overall_pass_rate": overall_correct / count,
+        "overall_correct": overall_correct,
+        "per_iteration_pass_rate": per_iteration_pass_rate,
+        "per_iteration_correct": per_iteration_correct,
+        "avg_agent_iterations": sum(int(r.get("agent_iterations", 0)) for r in results) / count,
+        "gold_failures": gold_failures,
+        "agent_request_failures": agent_request_failures,
+    }
 
 
 # ---------- Main (provided) --------------------------------------------
