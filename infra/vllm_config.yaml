@@ -1,0 +1,25 @@
+# vLLM server config for Qwen3-30B-A3B on 1× H100 80GB.
+# Loaded by scripts/start_vllm.sh via: vllm serve --config /infra/vllm_config.yaml
+
+model: Qwen/Qwen3-30B-A3B-Instruct-2507
+served-model-name: Qwen/Qwen3-30B-A3B-Instruct-2507
+
+host: "0.0.0.0"
+port: 8000
+
+# Model defaults to 262144 context, which needs ~24 GiB KV cache alone and
+# exceeds what remains after loading weights. Cap to the agent workload
+# (1.5–3K-token prompts, short SQL outputs) to free KV for concurrency.
+max-model-len: 4096
+
+# Use most of the H100 for weights + KV cache (default 0.9 leaves too little).
+gpu-memory-utilization: 0.98
+
+# Throughput / latency tuning for 10+ RPS target.
+enable-chunked-prefill: true
+max-num-batched-tokens: 8192
+max-num-seqs: 512
+enable-prefix-caching: true
+
+trust-remote-code: true
+dtype: auto
