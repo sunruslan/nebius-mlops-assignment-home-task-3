@@ -1,0 +1,3019 @@
+{
+  "summary": {
+    "requested_rps": 10.0,
+    "duration_seconds": 60,
+    "wall_clock_seconds": 120.01587676000054,
+    "total_requests": 600,
+    "achieved_rps": 4.9993385558465615,
+    "ok": 310,
+    "timeouts": 0,
+    "http_errors": 64,
+    "client_errors": 226,
+    "latency_p50": 11.32863125700078,
+    "latency_p95": 63.543103558999974,
+    "latency_p99": 95.28401755300001,
+    "latency_max": 105.75524984200001
+  },
+  "results": [
+    {
+      "latency_seconds": 0.0477014189991678,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0006194470006448682,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005254959996818798,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005293909998727031,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004762090002259356,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005159120000826078,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0007755500000712345,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005254420002529514,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000748964999729651,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000491609000164317,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005150500001036562,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000538508000317961,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005073729998912313,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004975929996362538,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.00047456100037379656,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.00046109899994917214,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005047820004620007,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0007918380006231018,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005185419995541451,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005397900004027179,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005340429997886531,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005256479998934083,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005045850002716179,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005101149999973131,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005322510005498771,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004973679997419822,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005200120003792108,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0016989959995044046,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004995219996999367,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.00047213100060616853,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005309810003382154,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005032369999753428,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000518136000209779,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005052039996371605,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.00047874499978206586,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004917260002912371,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005040780006311252,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0009564360007061623,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005200859995966312,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004997610003556474,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005704669993065181,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005107430006319191,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005876179993720143,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005094839998491807,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005000709998057573,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000511645999722532,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005130589997861534,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0007616339999003685,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005069639992143493,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004926259998683236,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005211309999140212,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005269390003377339,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005197330001465161,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.006687994000458275,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005485330002557021,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004948669993609656,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0007770890006213449,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005026019998695119,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0007265329995789216,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005388119998315233,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004993430002286914,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000504513000123552,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005024880001656129,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004898619999949005,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005235020007603453,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005146659996171365,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0007968520003487356,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004989019998902222,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005007270001442521,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005501570003616507,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005501630002981983,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005262949998723343,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004702240003098268,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005195590001676464,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005609339996226481,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005142800000612624,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0008086289999482688,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005022599998483201,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000492254999699071,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005004780005037901,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005358939997677226,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0004932420006298344,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005222329991738661,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005313060000844416,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005385109998314874,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005665019998559728,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005419369999799528,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005276040001263027,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000535201000275265,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000526687999808928,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0006910499996592989,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005816120001327363,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000541397000233701,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0006321509999906993,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0006032069995853817,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0009407640000063111,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005490079993251129,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005999799996061483,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.000599630999204237,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0006321219998426386,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005547419996219105,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.003315386999929615,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005346379994080053,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005197600003157277,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005425210001703817,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0008958190001067123,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.0005461040000227513,
+      "status": "client_error",
+      "error": "ClientConnectorError: Cannot connect to host localhost:8001 ssl:default [Connect call failed ('127.0.0.1', 8001)]"
+    },
+    {
+      "latency_seconds": 0.035267473999738286,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.05400700100017275,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.08965014100067492,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.1027439029994639,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 1.4893019080000158,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.2582667090000541,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 1.7598195599994142,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.45884529599970847,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 3.8407519789998332,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.07809605600050418,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.09384328099986305,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 3.6326696569994965,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.06414966699958313,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 4.849303513999985,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.02896674499970686,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 5.378617053000198,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.01289621999967494,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 2.2792173970001386,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.9393262700004925,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.046137027999975544,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 3.420727468000223,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.8961046320000605,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.199512147999485,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.072701484999925,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 2.108755160000328,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.5850034770001,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03367970100043749,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 4.276797462000104,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.174418400999457,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.048890830000345886,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 5.753192228000444,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.349763279999934,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03324446400074521,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 6.876884463000351,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 2.698377863999667,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.11815935300001,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03217528500044864,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 8.650231309000446,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.557842512000207,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.7618006220000098,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.33758583799954,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.79845257999932,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.0098822829995697,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03311309900072956,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 6.913887718999831,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.05377337299978535,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.03383790600037173,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 12.43315508700016,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.165658613999767,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.356972715999291,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.426883916000406,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.757361429000412,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.647409352999603,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.244284155999594,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.057271118000244314,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 9.91221420399961,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.014855675000035262,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 12.256455859999733,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.851791523000429,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.758511087000443,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.07138531599957787,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 5.392916304999744,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.696765879999475,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.181227317000776,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.021186056999795255,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 14.945189045000006,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.1913285230002657,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 10.37773452500005,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.294244584999433,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.525270775000536,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 16.337751956999455,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.562696075000531,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.588809075999961,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.110307336000005,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.3346361020003314,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.04879345699919213,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 10.150285384000199,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03784413300036249,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 16.562665876999745,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.318868913999722,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.750673206000101,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.971009523999783,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03292419599983987,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.1147173549998115,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 10.460709609999867,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.784077239999533,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.033727691000422055,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.021557134999966365,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 8.980436249000377,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.717451017999338,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 18.970003055000234,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.08383677799975,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.050882554000054,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.725290354999743,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03633965400058514,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 22.019145215000208,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 18.921548333999453,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 19.607808521999686,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.15077165599996079,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 7.060226390000025,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.105563670000265,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.021715761000450584,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 7.6172788960002435,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.231138447000376,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.373123092999776,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.288189451999642,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.474083010999493,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.157375150999542,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.8313156359999994,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.304839712000103,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.11019113900056254,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 14.81677908399979,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.062227751999671455,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 10.918204276000324,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.07868853099989792,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 12.477405587999783,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.475557558999753,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.66623466799956,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 17.991788739000185,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.676040907000242,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.081713954999941,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.204823246999695,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.973895128999175,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.14716388899978483,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 5.30417450799996,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.10392966699964745,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 6.5066315289996055,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.10517209099998581,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 20.515234526999848,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.09900204600035067,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 4.637777960999301,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03369504199963558,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 10.270917089999784,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 16.384447086000364,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.03234331200019369,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 5.440541878999284,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.630096813999444,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.262118024999836,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.752466361000188,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.351185852000526,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.042150340999797,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.08326533899980859,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 12.150905282999702,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 22.138204744000177,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 21.340770395000618,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.01302164100070513,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 6.616182995999225,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.062043500999607204,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 6.1093911109992405,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.735637611999664,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.757679575000111,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.06724061099976097,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 10.745456714000284,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 17.848002475000612,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.316321344000244,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.213106055000026,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.064687297000091,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.2375878189996,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.036681879999378,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 10.149848633000147,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.443440687000475,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.749816003000888,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.367824678000034,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.064763282999593,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 18.876938483999766,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.89129247299934,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.225574185999903,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.06428942700040352,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 5.035015174999899,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 16.254910112999823,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.296327468999152,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.129790318000232,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.04240116999972088,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 25.781178887999886,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.691624805999709,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.40119501800018,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.573021962999519,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.017148945999906573,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.09860469100021874,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.10026114899937966,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 9.892903236000166,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.130190527000195,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.234191384000042,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.528004736000184,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.649710891999348,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.9160970290004116,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.8402731300002415,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.528525746000014,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.633275971999865,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.871212650999951,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.72818632400049,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.174369421999472,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.780405536000217,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 31.591470159999517,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.676808625000376,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.827183874999719,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.861444625999866,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.415691885999877,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.481686101999912,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 19.048887909999394,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 17.959519731,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.022683704000883154,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 27.590775470999688,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 17.57081617499989,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 34.95637876299952,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.353744326999731,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.04820351100079279,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 3.2507155610001064,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 34.899289701999805,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.28530232299999625,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 13.304725789999793,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.2032134080000105,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.129958647000421,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 22.838187450000078,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.754275379999854,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.044928321000043,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.3422343309994176,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 13.156536561000394,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.777901245000066,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.24888754800031165,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 40.963912582000376,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.771468906000337,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.1711238329999105,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 28.665268655000546,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.019652736999887566,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 4.621092029000465,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.9955087129992535,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 38.54389099400032,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.232830468999964,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 4.452805165999962,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.578523420999772,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.05121736000001,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 37.28967525100052,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 16.192184948999966,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.451981362999504,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.967287651999868,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.818406949000746,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.165733124999861,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.4088092490001145,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.44882925499951,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.018435891999615706,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 13.136255669000093,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.07104716999947414,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.057326746999933675,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 0.08223440000074334,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 8.104299369000728,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 18.931111449999662,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.09057715499966434,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 45.90677702100038,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.9710804919996,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 0.08261992400002782,
+      "status": "http_error",
+      "error": "HTTP 500"
+    },
+    {
+      "latency_seconds": 6.087389944000279,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.0238258890003635,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.6817315449998205,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.437360495000576,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 3.7493762370004333,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 39.456990075999784,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.28826452300018,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.417120691000491,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.136136059000819,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.567740164000497,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.999147106000237,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.649169800999516,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.462226735000513,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.972854272999939,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.946719089999533,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.437845088999893,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 16.754751528999805,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.074115705000622,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.225836621999406,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 16.226799611000388,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.391086612000436,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 17.802074735999668,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 18.72301544900074,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.706352299999708,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.330609840999387,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.784651633000067,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 16.585166447999654,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.446817923000708,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.505961586000012,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 5.07360819600035,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.553773198999806,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.384643053999753,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.704146379999656,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.887581708999278,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.107247168999493,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 6.641583930999332,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.077100088999941,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.32863125700078,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.513413341999694,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.461491303000003,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.020725849999508,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 9.368175190999864,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.647935445999792,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 7.667300549000174,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.081146139000339,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 8.092124105000039,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.32152079000025,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 21.019319003999954,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 48.40708457600067,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.46852689500065,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.981560016999538,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 11.544612845999836,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.60912406999978,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.039752089999638,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 10.401852465000047,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.418955236999864,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 13.117052439999497,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.533371289999195,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 44.61946000199987,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.166023435999705,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 16.276188702999207,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 45.798739782000666,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 32.931118755999705,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.026282801999514,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 19.434311039000022,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 21.0061847019997,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 17.092573977999564,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 35.05646192400036,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.909455276000699,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 12.995008082999448,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 14.54917381999985,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 50.06837547499981,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 15.111122899999827,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 22.129626366000593,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 19.288079572999777,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 36.923812848000125,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 19.73231230700003,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 46.17967785300061,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 53.30280359099925,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 63.543103558999974,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 43.46130579799956,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 47.028434693000236,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 17.09961476999979,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 65.33144352499949,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 51.276093561999915,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 46.879174005000095,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 31.640451393999683,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 31.742062186000112,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 26.090280071999587,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 31.224374836000607,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 57.24861979399975,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 68.88478526399922,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 35.125170496000464,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 52.27676350599995,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 31.439448445999915,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 51.38025121300052,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 58.36614086999998,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 28.363446645000295,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 40.36916023400045,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 42.809167591000005,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 33.95198631800031,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 29.112682327000584,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 34.440343896999366,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 33.83110333900004,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 72.4979120349999,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 41.13985780100029,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 55.01021868099997,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 69.58762184999978,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 38.257988699000634,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 56.31718341300075,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 48.38464445499994,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 50.53736308399948,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 88.97726444699947,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 95.38881572399987,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 95.28401755300001,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 93.8689718350006,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 81.11571813699993,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 73.34010492299967,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 88.48433897900031,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 79.54494762499962,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 95.89215130200046,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 105.75524984200001,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 84.99381071500011,
+      "status": "ok",
+      "error": null
+    },
+    {
+      "latency_seconds": 97.13775200700002,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 93.93295715399927,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 94.83618325599946,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 63.53466189399933,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 75.93165040599979,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 83.13724407500013,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 71.32865642400066,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 103.82586440700015,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 86.32472201099972,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 103.4294048010006,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 101.23388785499992,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 97.93079981499977,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 86.2134999760001,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 95.33242296099979,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 62.014376066000295,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 93.83569981800065,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 72.03444531800051,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 86.12595433200022,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 72.53694652099966,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 88.23804257400025,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 93.73101294000026,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 67.72761500100023,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 107.93806278500051,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 66.22415474799982,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 101.03632742300033,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 76.33010694699988,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 74.33852289599963,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 60.23143433500081,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 70.43662977300028,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 74.5292749500004,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 66.5365863219995,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 92.43617189799988,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 76.93837705600072,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 98.53874205600005,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 94.03404022799987,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 75.5386050320003,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 105.73704060699947,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 87.42012037800032,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 60.83639439400031,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 85.63355957800013,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 61.71923641000012,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 93.3314334200004,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 88.43718224400072,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 78.7326049860003,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 96.63262264900004,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 81.13137310000002,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 84.33638886100016,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 100.83282841100026,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 63.42486511700008,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 89.4384161629996,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 77.73718155000006,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 69.22664307899959,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 70.91752480600007,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 85.43820478399994,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 107.0370548209994,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 87.52046856600009,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 95.2357439059997,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 95.4366136360004,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 70.73579713800063,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 105.03890780300026,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 87.00782623800023,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 64.53388305899989,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 92.83808923600009,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 96.41669857800025,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 85.33932543799983,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 73.43595912199999,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 83.73901082400062,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 85.93901659699986,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 107.13624893100041,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 93.0370402970002,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 70.61195896700065,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 62.625165737000316,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 69.9380165980001,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 91.22601571799987,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 88.93398953299948,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 92.7301408150006,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 80.52419838999958,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 79.43522579799992,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 79.63422369799991,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 64.72600541300017,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 61.431649586000276,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 104.73243961300068,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 106.93924729900027,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 79.93942286099991,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 79.83888097599993,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 87.73970020899924,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 68.92739261800034,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 60.416175155999554,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 60.130143061000126,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 104.62547115699999,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 83.93564812600016,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 102.41949911600022,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 84.43135527300001,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 91.63932042800025,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 74.93736479999916,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 89.23321332200067,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 62.20459589300026,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 87.09904435899989,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 79.03763851999975,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 78.23396790799961,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 101.73745054499977,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 60.62868357499974,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 74.23328106900044,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 81.03620484400017,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 78.83847374700053,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 96.2397971549999,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 72.3242551659996,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 109.33783685199978,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 86.7279221810004,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 70.23881696600074,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 76.43526439400011,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 78.039246284,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 108.94037648100038,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 84.13440562300002,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 90.73890705400026,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 82.6384936580007,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 83.04010653900059,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 63.2373020619998,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    },
+    {
+      "latency_seconds": 71.54053772000043,
+      "status": "client_error",
+      "error": "ServerDisconnectedError: Server disconnected"
+    }
+  ]
+}
